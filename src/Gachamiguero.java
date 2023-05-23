@@ -1,6 +1,6 @@
-public class V3 {
+public class Gachamiguero {
 
-    public static String catar(int n){
+    public static String preparar(int n){
 
         String resultado = String.valueOf(n);
 
