@@ -33,4 +33,10 @@ public class Test1 {
         Assertions.assertEquals("miga", result);
     }
 
+    @Test
+    public void testFor6(){
+        String result = V2.cocinar(6);
+        Assertions.assertEquals("Gacha", result);
+    }
+
 }
