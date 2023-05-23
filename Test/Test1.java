@@ -27,4 +27,10 @@ public class Test1 {
         Assertions.assertEquals("4", result);
     }
 
+    @Test
+    public void testFor5(){
+        String result = V2.cocinar(5);
+        Assertions.assertEquals("miga", result);
+    }
+
 }
