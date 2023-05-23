@@ -63,6 +63,12 @@ public class Test1 {
         Assertions.assertEquals("miga", result);
     }
 
+    @Test
+    public void testFor11(){
+        String result = V2.cocinar(11);
+        Assertions.assertEquals("11", result);
+    }
+
 
 
 }
