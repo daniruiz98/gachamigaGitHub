@@ -81,6 +81,12 @@ public class Test1 {
         Assertions.assertEquals("13", result);
     }
 
+    @Test
+    public void testFor14(){
+        String result = V2.cocinar(14);
+        Assertions.assertEquals("14", result);
+    }
+
 
 
 }
