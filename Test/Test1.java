@@ -39,4 +39,14 @@ public class Test1 {
         Assertions.assertEquals("Gacha", result);
     }
 
+    @Test
+    public void testFor7(){
+        String result = V2.cocinar(7);
+        Assertions.assertEquals("7", result);
+    }
+
+   
+
+
+
 }
