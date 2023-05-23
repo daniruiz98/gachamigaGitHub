@@ -9,4 +9,10 @@ public class Test1 {
         Assertions.assertEquals("1", result);
     }
 
+    @Test
+    public void testFor2(){
+        String result = V2.cocinar(2);
+        Assertions.assertEquals("2", result);
+    }
+
 }
