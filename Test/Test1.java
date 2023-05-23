@@ -15,4 +15,10 @@ public class Test1 {
         Assertions.assertEquals("2", result);
     }
 
+    @Test
+    public void testFor3(){
+        String result = V2.cocinar(3);
+        Assertions.assertEquals("Gacha", result);
+    }
+
 }
