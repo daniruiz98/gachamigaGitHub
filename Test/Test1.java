@@ -51,6 +51,12 @@ public class Test1 {
         Assertions.assertEquals("8", result);
     }
 
+    @Test
+    public void testFor9(){
+        String result = V2.cocinar(9);
+        Assertions.assertEquals("Gacha", result);
+    }
+
 
 
 }
